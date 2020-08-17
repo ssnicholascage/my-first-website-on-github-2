@@ -1,0 +1,157 @@
+@media only screen and (max-width:600px) {
+  .left_header, .right_header {
+    flex-basis: 100%;
+    height: auto;
+  }
+
+  .left_header_content h1 {
+    font-size: 1.5rem;
+  }
+
+  .left_header_content p {
+    line-height: 1.5;
+  }
+
+  .controllors {
+    display: none;
+  }
+
+  .controllors_small {
+    display: block;
+    padding-bottom: 25px;
+  }
+
+  .controllors_small hr {
+    border-style: none;
+    border-left-style: solid;
+    width: 1px;
+    height: 30px;
+    margin: 0 10px;
+    display: inline-block;
+  }
+
+  .right_header1 h1 {
+    font-size: 1.5rem;
+  }
+
+  .big {
+    display: none;
+  }
+
+  .small {
+    display: block;
+  }
+
+  .right_header button {
+    margin-bottom: 25px;
+    padding: 5px 15px;
+  }
+
+  .call_action_1 h1 {
+    font-size: 1.5rem;
+  }
+
+  .call_action_1 {
+    margin-bottom: 25px;
+  }
+
+  .last_section_left h1 {
+    font-size: 1.5rem;
+  }
+
+  .call_action_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .features_button {
+    padding: 5px 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .left_header img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .left_header_content {
+    padding: 0 48px;
+  }
+
+  .logo h1 {
+    color: blue;
+  }
+
+  .last_section_right, .last_section_left {
+    flex-basis: 100%;
+    height: auto;
+  }
+
+  .last_section_right img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .dropdown_icons {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+
+  }
+
+  /* dropdown_menu starts */
+  .dropdown_menu {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown_menu button {
+    padding: 15px;
+    color: #038803;
+    text-align: center;
+    border: none;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0);
+    width: 150px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.3);
+  }
+
+  .dd_content {
+    width: 100%;
+    position: absolute;
+  }
+
+  .dd_content a {
+    text-decoration: none;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #038803;
+    padding: 5px 0 5px 5px;
+  }
+
+  .dd_content a:hover {
+    background: #808080;
+  }
+
+  .dropdown_menu:hover>.dd_content {
+    display: block;
+  }
+
+  /* dropdown_menu ends */
+  .big_footer {
+    top: 500px;
+  }
+
+  .lan_icons {
+    width: 50px;
+    height: 50px;
+    transform: translateY(30px);
+  }
+}
